@@ -1,0 +1,32 @@
+// NAME: BONTIA, Zashkie Jake P.
+// COURSE AND YEAR: BSCS - 2A
+// DATE: 01/31/2026
+// ACTIVITY: Activity 1: Display Demographics
+
+using System;
+
+class Program {
+    static void Main (){
+        string studentID = "202310001";
+        string fullName = "John Michael Reyes";
+        string nickName = "Mike";
+        string gender = "Male";
+        string yearLevel = "3rd Year";
+        string homeLocation = "123 St. Greenfeild, Metro City";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNumber = "+639123456789";
+        string personalEmail = "mike.reyes@example.com";
+        
+        Console.WriteLine("Demographics Program by Zashkie Jake P. Bontia");
+        Console.WriteLine($" ");
+        Console.WriteLine($"Student ID: {studentID}");
+        Console.WriteLine($"Full Name: {fullName}");
+        Console.WriteLine($"Nick Name: {nickName}");
+        Console.WriteLine($"Gender: {gender}");
+        Console.WriteLine($"Year Level: {yearLevel}");
+        Console.WriteLine($"Home Location: {homeLocation}");
+        Console.WriteLine($"Course: {course}");
+        Console.WriteLine($"Mobile No.: {mobileNumber}");
+        Console.WriteLine($"Personal Email: {personalEmail}");
+    }
+}
